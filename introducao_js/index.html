@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Básico</h1>
+
+    <h2>Formas de usar o JavaScript dentro do seu site</h2>
+
+    <h3>Interno</h3>
+    <p>Existem duas formas de usar JavaScript dentro do seu site, a primeira é coloca-lo dentro do próprio arquivo HTML usando "Script".</p>
+
+    <script>
+        window.alert("Hello, World!")
+    </script>
+
+    <h3>Externo</h3>
+    <p>A outra forma é a mais comum e mais organizada, deixando um arquivo separado somente para o JavaScript <strong>quando fazemos dessa forma é uma boa prática deixar o Script no final do documento HTML pois o navegador deve processar o JavaScript por ultimo</strong></p>
+
+
+    <br>
+
+
+    <h2>Saídas para os Scripts JS</h2>
+
+    <H3>Alerta - confimação - input</H3>
+    <p>Um dos tipos de saídas são mensagens na tela, podemos fazer isso com:</p>
+    <p><strong>alert</strong> exibe uma mensagem de Alerta</p>
+    <p><strong>confirm</strong> exibe uma mensagem de confirmação</p>
+    <p><strong>prompt</strong> permite mandar um input como um nome ou idade</p>
+
+    <h3>Adição de um trecho de HTML</h3> <!-- olhar na parte index.js -->
+    <p id="texto">  </p>
+
+    <h3>Console</h3>
+    <p>Exibe informações no console, é aberto na parte do DevTools</p> <!-- olhar na parte index.js -->
+    <p>console.log</p>
+    <p>console.info</p>
+    <p>console.warn</p>
+    <p>console.error</p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
