@@ -6,19 +6,19 @@ let cachorro = {
     dono: "Alisson",
 
     latir: function(){
-        console.log("Au au!")
+        return "Au au!"
     },
 
     informe: function(){
-        console.log(`Dono do cachorro: ${this.dono} e o nome do cachorro é: ${this.nome}`)
+        return `Dono do cachorro: ${this.dono} e o nome do cachorro é: ${this.nome}`
     }
 
 }
 
 // acessando os elementos e metodos de um objeto
 
-cachorro.nome // acessado propriedades
-cachorro.dono
+console.log(cachorro.nome) // acessado propriedades
+console.log(cachorro.dono)
 
-cachorro.latir() // acessando métodos
-cachorro.informe()
+console.log(cachorro.latir()) // acessando métodos
+console.log(cachorro.informe())
