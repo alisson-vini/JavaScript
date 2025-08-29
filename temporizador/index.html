@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo">Cronômetro de Milhões</h1>
+
+    <!-- bloco que mostra o tempo -->
+
+    <div id="bloco_visualizacao" class="texto_visual">
+        <p id="visu">00:00</p>
+    </div>
+
+    <div class="conteiner">
+
+        <!-- bloco para começar a contagem -->
+        <button id="bloco_start" onclick="rodar_timer()" class="texto_start_stop">Start</button>
+
+        <!-- bloco para parar contagem -->
+        <button id="bloco_stop" onclick="reiniciar_timer()" class="texto_start_stop">Stop</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
